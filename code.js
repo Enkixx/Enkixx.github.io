@@ -166,6 +166,7 @@ function createSubmit(clueObject){
 
 function gameStart(){
     gameBoardElement.innerHTML = ""
+    gameBoardElement.style.visibility = "visible"
     introElement.innerHTML = ""
     playerScoreElement.textContent = currentScore
     totalScoreElement.textContent = totalScore
