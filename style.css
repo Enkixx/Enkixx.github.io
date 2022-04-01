@@ -11,6 +11,7 @@ body{
     background-color: black;
     height: 80vh;
     flex-grow: 1;
+    visability: hidden;
 }
 
 .notVisable {
